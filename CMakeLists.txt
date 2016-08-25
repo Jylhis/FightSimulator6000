@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8)
-project (FightSimulator6000)
+project (FightSimulator6000 CXX)
 
 # The version number.
 set (VERSION_MAJOR 0)
@@ -8,19 +8,16 @@ set (VERSION_PATCH 4)
 
 set (CMAKE_CXX_FLAGS "-g -Wall -std=c++11")
 
-# TODO: PROJECT_SOURCE_DIR variable
-file(GLOB SRC
-    "src/*.h"
-    "src/*.cpp"
-)
-
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
 configure_file (
   "src/version.h.in"
-  "src/version.h"
-  )
+  "${CMAKE_CURRENT_BINARY_DIR}/version.h"
+  @ONLY
+)
 
+set(SRC
+    "src/battlefield.h"
+    "src/battlefield.cpp"
+    "src/main.cpp"
+)
 add_executable(FightSim ${SRC})
-
-# enable_testing()
-
-# add_test(DoesItRun test/DoesItRun.sh)
