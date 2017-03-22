@@ -1,9 +1,9 @@
-image: ubuntu
+image: gcc
 
 build:
   script:
     - apt-get update
-    - apt-get install -qq gcc cmake
+    - apt-get install -qq cmake
     - mkdir build && cd build
     - cmake ..
     - make
