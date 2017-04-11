@@ -1,27 +1,16 @@
-# Projektin kääntäminen
+# Install
 
-## Win
-Tarvittava ohjelmisto:
-
+### Dependencies:
 - CMake
-- Visual Studio
+- Visual Studio (Windows)
+- g++ (Linux)
 
-Kääntäminen
+### Compile
+- Clone project
+- Run CMake
+- Build
 
-1. lataa tai kloonaa projekti koneellesi
-2. Suorita CMake projekti kansiossa
-3. Avaa CMake:n tekemä Visual Studio projekti
-4. Build
-
-## Linux
-- CMake
-- g++
-
-Kääntäminen
-
-1. Mene terminaalilla kansioon johon haluat projektin
-2. Copy&Paste alla ole scripti terminaaliin
-
+#### On Linux
 ```bash
 git clone https://gitlab.com/Jylhis/FightSimulator6000.git &&
 cd fightsimulator6000 &&
