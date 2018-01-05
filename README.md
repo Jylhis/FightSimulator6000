@@ -1,5 +1,12 @@
-# Install
+# Fight simulator 6000
+<h2 align=center>Start</h2>
 
+![Screenshot1](Screenshot1.png)
+
+<h2 align=center>End</h2>
+
+![Screenshot2](Screenshot2.png)
+# Install
 ### Dependencies:
 - CMake
 - Visual Studio (Windows)
