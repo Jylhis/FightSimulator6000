@@ -6,7 +6,7 @@
 <h2 align=center>End</h2>
 
 ![Screenshot2](Screenshot2.png)
-# Install
+# Build
 ### Dependencies:
 - CMake
 - Visual Studio (Windows)
