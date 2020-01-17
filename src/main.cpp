@@ -29,7 +29,7 @@ auto main() -> int {
 
   Guy* characters = new Guy[battle.count];
 
-  cout << "\n********************\n"
+  cout << "\n*******************\n"
        << "*       Log       *\n"
        << "*******************"	<< endl;
 
